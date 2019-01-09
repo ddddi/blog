@@ -1,0 +1,52 @@
+2019-01-09 11:19:35.325  INFO 8556 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : Starting BlogApplication on WINDOWS-PLDDN38 with PID 8556 (C:\Users\shxt\IdeaProjects\gogs\blog\target\classes started by shxt in C:\Users\shxt\IdeaProjects\gogs\blog)
+2019-01-09 11:19:35.331  INFO 8556 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2019-01-09 11:19:35.423  INFO 8556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-09 11:19:36.977  WARN 8556 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.hrbtblog.blog]' package. Please check your configuration.
+2019-01-09 11:19:38.663  WARN 8556 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-01-09 11:19:38.683  INFO 8556 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-09 11:19:38.713 ERROR 8556 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-01-09 11:21:34.665  INFO 164 --- [main] com.hrbtblog.blog.BlogApplicationTests   : Starting BlogApplicationTests on WINDOWS-PLDDN38 with PID 164 (started by shxt in C:\Users\shxt\IdeaProjects\gogs\blog)
+2019-01-09 11:21:34.667  INFO 164 --- [main] com.hrbtblog.blog.BlogApplicationTests   : No active profile set, falling back to default profiles: default
+2019-01-09 11:21:38.136  INFO 164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-09 11:21:38.574  WARN 164 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-09 11:21:38.712  INFO 164 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-01-09 11:21:39.151  INFO 164 --- [main] com.hrbtblog.blog.BlogApplicationTests   : Started BlogApplicationTests in 5.225 seconds (JVM running for 6.877)
+2019-01-09 11:21:40.073  INFO 164 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-09 11:22:05.879  INFO 4068 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : Starting BlogApplication on WINDOWS-PLDDN38 with PID 4068 (C:\Users\shxt\IdeaProjects\gogs\blog\target\classes started by shxt in C:\Users\shxt\IdeaProjects\gogs\blog)
+2019-01-09 11:22:05.884  INFO 4068 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2019-01-09 11:22:05.982  INFO 4068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-09 11:22:07.681  WARN 4068 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-09 11:22:07.768  INFO 4068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-09 11:22:07.810  INFO 4068 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : Started BlogApplication in 2.575 seconds (JVM running for 3.971)
+2019-01-09 11:22:24.583  INFO 6304 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : Starting BlogApplication on WINDOWS-PLDDN38 with PID 6304 (C:\Users\shxt\IdeaProjects\gogs\blog\target\classes started by shxt in C:\Users\shxt\IdeaProjects\gogs\blog)
+2019-01-09 11:22:24.588  INFO 6304 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2019-01-09 11:22:24.693  INFO 6304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-09 11:22:26.482  WARN 6304 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-09 11:22:26.590  INFO 6304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-09 11:22:26.641  INFO 6304 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : Started BlogApplication in 2.731 seconds (JVM running for 4.159)
+2019-01-09 11:23:09.161  INFO 11876 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : Starting BlogApplication on WINDOWS-PLDDN38 with PID 11876 (C:\Users\shxt\IdeaProjects\gogs\blog\target\classes started by shxt in C:\Users\shxt\IdeaProjects\gogs\blog)
+2019-01-09 11:23:09.186  INFO 11876 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2019-01-09 11:23:09.381  INFO 11876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-09 11:23:11.588  WARN 11876 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-09 11:23:11.669  INFO 11876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-09 11:23:11.712  INFO 11876 --- [restartedMain] com.hrbtblog.blog.BlogApplication        : Started BlogApplication in 3.624 seconds (JVM running for 5.56)
