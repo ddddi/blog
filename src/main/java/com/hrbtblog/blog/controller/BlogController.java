@@ -22,5 +22,10 @@ public class BlogController {
         return "login";
     }
 
+    @RequestMapping("/loginInclude")
+    public String  loginInclude(){
+        return "include";
+    }
+
 
 }
