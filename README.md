@@ -25,3 +25,8 @@
            <artifactId>spring-boot-starter-tomcat</artifactId>  
             <scope>provided</scope> (去掉就可以了)
     </dependency>  
+  
+  01-10
+    14:29
+    上网参考了其他的一些博客,如JFinal(另一个轻量级框架,不准备使用) 里边有很多知识可以借鉴(如一些验证为空方法判断等其中的模式思路)  
+    写该博客主要目标是为了做一个适合自己的工作学习及日程等方面的记录平台,另一方面目的是为了学习及巩固Java方面相关的知识

@@ -21,4 +21,6 @@ public class BlogController {
     public String  loginBoot(){
         return "login";
     }
+
+
 }
