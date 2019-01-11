@@ -29,4 +29,11 @@
   01-10
     14:29
     上网参考了其他的一些博客,如JFinal(另一个轻量级框架,不准备使用) 里边有很多知识可以借鉴(如一些验证为空方法判断等其中的模式思路)  
-    写该博客主要目标是为了做一个适合自己的工作学习及日程等方面的记录平台,另一方面目的是为了学习及巩固Java方面相关的知识
+    写该博客主要目标是为了做一个适合自己的工作学习及日程等方面的记录平台,另一方面目的是为了学习及巩固Java方面相关的知识  
+  01-11
+    10:15
+    thymeleaf 引入css的时候因为路径的问题需要 适当的加上   /(根目录)  或 ../(上级目录) 如  
+    <link rel="stylesheet" href="static/blog/css/class_css.css"/>--应该为-->  
+    <link rel="stylesheet" href="/static/blog/css/class_css.css"/>(相当于根目录或者在前边加../(上一级目录))
+        --> 只是在idea上可以连接到该css文件
+    结果还是不生效: -->  原因:  在thymeleaf中默认是在staitc目录下的 使用 th:href="@{/blog/css/class_css.css}"
