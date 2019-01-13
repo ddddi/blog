@@ -26,6 +26,9 @@ public class BlogController {
     public String  loginInclude(){
         return "include";
     }
-
+    @RequestMapping("/loginTest")
+    public String  loginTest(){
+        return "test";
+    }
 
 }
